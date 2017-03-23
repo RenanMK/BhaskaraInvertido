@@ -10,11 +10,11 @@ public class BhaskaraAvesso {
         
         //ENTRADAS
         System.out.print("x1: ");
-        x1 = leitor.nextDouble();
+        x1 = Double.parseDouble(leitor.nextLine());
         System.out.print("x2: ");
-        x2 = leitor.nextDouble();
+        x2 = Double.parseDouble(leitor.nextLine());
         System.out.print("c: ");
-        c = leitor.nextDouble();
+        c = Double.parseDouble(leitor.nextLine());
         
         //PROCESSAMENTO
         produto = x1 * x2;
